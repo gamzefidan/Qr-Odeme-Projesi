@@ -41,9 +41,9 @@ npm start
 
 1. Kamera izni verilmezse QR tarayıcı çalışmaz.
 
-Tasarım Figma üzerinde oluşturulmuş ve React CSS ile entegre edilmiştir.
+2. Tasarım Figma üzerinde oluşturulmuş ve React CSS ile entegre edilmiştir.
 
-Uygulama örnek proje olarak hazırlanmıştır (gerçek ödeme işlemi yapmaz).
+3. Uygulama örnek proje olarak hazırlanmıştır (gerçek ödeme işlemi yapmaz).
 
 # Geliştirici
 
