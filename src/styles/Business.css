@@ -1,0 +1,59 @@
+.business-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+  gap: 20px;
+}
+
+.business-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111827;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.business-input {
+  width: 250px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  text-align: center;
+  font-size: 15px;
+  color: #111827;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.business-button {
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.business-button:hover {
+  background-color: #059669;
+}
+
+.qr-card {
+  width: 160px;
+  height: 160px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6b7280;
+  font-size: 14px;
+}
