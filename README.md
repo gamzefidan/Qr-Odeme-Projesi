@@ -1,33 +1,33 @@
-# QR Ödeme Uygulaması
+# QR PAYMENT APPLICATION
 
-- Bu proje, React.js ile geliştirilen basit ve modern bir QR ödeme simülasyonudur.
-  Kullanıcı, bir işletmeden ödeme almak veya ödeme yapmak için QR kodu oluşturabilir ya da tarayabilir.
+- This project is a simple and modern QR payment simulation built with React.js.
+  Users can generate or scan QR codes to simulate sending or receiving payments from a business
 
-# Özellikler
+# FEATURES
 
-1.  QR kod oluşturma ve tarama (jsQR kütüphanesi ile)
+1. Generate and scan QR codes (using jsQR library)
 
-2.  Tutar girme ve doğrulama işlemleri
+2. Enter and validate payment amounts
 
-3.  Ödeme başarılı / başarısız ekranları
+3. Success and failure screens for payments
 
-4.  LocalStorage üzerinden son ödeme bilgisini saklama
+4. Store the last payment information using LocalStorage
 
-5.  Figma üzerinden modern UI tasarımı (Business & Customer panelleri)
+5. Modern UI design created in Figma (Business & Customer panels)
 
-# Kullanılan Teknolojiler
+# TECHNOLOGIES USED
 
 1. React.js
 
-2. jsQR (QR tarayıcı)
+2. jsQR (QR scanner)
 
-3. QRCode.react (QR oluşturucu)
+3. QRCode.react (QR generator)
 
 4. CSS (Custom Styles)
 
 5. Figma UI Design
 
-# Çalıştırma
+# RUNNING THE PROJECT
 
 ```bash
 npm install
@@ -37,15 +37,15 @@ npm install
 npm start
 ```
 
-# Geliştirici Notları
+# RUNNING THE PROJECT
 
-1. Kamera izni verilmezse QR tarayıcı çalışmaz.
+1. The QR scanner will not work without camera permissions.
 
-2. Tasarım Figma üzerinde oluşturulmuş ve React CSS ile entegre edilmiştir.
+2. The UI was designed in Figma and integrated with React CSS.
 
-3. Uygulama örnek proje olarak hazırlanmıştır (gerçek ödeme işlemi yapmaz).
+3. This is a demo project and does not perform real payment transactions.
 
-# Geliştirici
+# DEVELOPER
 
 - Gamze Fidan
 - Junior Frontend Developer | UX Researcher
